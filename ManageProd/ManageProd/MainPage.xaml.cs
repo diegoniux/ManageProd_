@@ -8,11 +8,12 @@ using Xamarin.Forms;
 
 namespace ManageProd
 {
-    public partial class MainPage : ContentPage
+    public partial class MainPage : FlyoutPage
     {
         public MainPage()
         {
             InitializeComponent();
+     
         }
     }
 }

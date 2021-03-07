@@ -1,0 +1,16 @@
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\bin\Debug\netstandard2.0\ManageProd.deps.json
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\bin\Debug\netstandard2.0\ManageProd.dll
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\bin\Debug\netstandard2.0\ref\ManageProd.dll
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\bin\Debug\netstandard2.0\ManageProd.pdb
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\ManageProd.csprojAssemblyReference.cache
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\ManageProd.AssemblyInfoInputs.cache
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\ManageProd.AssemblyInfo.cs
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\ManageProd.csproj.CoreCompileInputs.cache
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\XamlC.stamp
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\ManageProd.dll
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\ref\ManageProd.dll
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\ManageProd.pdb
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\Views\FlyoutMenuPage.xaml.g.cs

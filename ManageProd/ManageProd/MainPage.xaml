@@ -5,5 +5,6 @@
             x:Class="ManageProd.MainPage">
     <FlyoutPage.Flyout>
         <local:FlyoutMenuPage x:Name="flyoutPage"></local:FlyoutMenuPage>
+        <!--COMMENT-->
     </FlyoutPage.Flyout>
 </FlyoutPage>

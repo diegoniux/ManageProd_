@@ -1,12 +1,31 @@
 {
   "version": 2,
-  "dgSpecHash": "qEOt4fNEQGgCrcpeGCUCKU6bM1GX4yJkUQbfY/vololMl9t80Lnur7EDXb3MYAM+2Q0+7G7uwN9MBftc7vjQiA==",
+  "dgSpecHash": "kSGYlvQtnsuX9rdG4w9G9iRhL/U66i5TvTICh0rwPPIXbi3xQvxtS1VnmQ1ikW9FbXb7nV4qLnXbaYgjtYcYOg==",
   "success": true,
-  "projectFilePath": "D:\\DIEGO\\PROYECTOS\\ManageProd\\ManageProd\\ManageProd.iOS\\ManageProd.iOS.csproj",
+  "projectFilePath": "/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/ManageProd.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\diego\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "/Users/dnieto/.nuget/packages/acr.userdialogs/7.1.0.481/acr.userdialogs.7.1.0.481.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/btprogresshud/1.3.1/btprogresshud.1.3.1.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/rg.plugins.popup/2.0.0.10/rg.plugins.popup.2.0.0.10.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/skiasharp/1.68.0/skiasharp.1.68.0.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/sqlite-net-pcl/1.7.335/sqlite-net-pcl.1.7.335.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/sqlitepclraw.bundle_green/2.0.3/sqlitepclraw.bundle_green.2.0.3.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/sqlitepclraw.core/2.0.3/sqlitepclraw.core.2.0.3.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.3/sqlitepclraw.provider.dynamic_cdecl.2.0.3.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/system.buffers/4.4.0/system.buffers.4.4.0.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.2/system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/webp.touch/1.0.8/webp.touch.1.0.8.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/xamarin.ffimageloading/2.4.11.982/xamarin.ffimageloading.2.4.11.982.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/xamarin.ffimageloading.forms/2.4.11.982/xamarin.ffimageloading.forms.2.4.11.982.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/xamarin.ffimageloading.svg/2.4.11.982/xamarin.ffimageloading.svg.2.4.11.982.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/xamarin.ffimageloading.svg.forms/2.4.11.982/xamarin.ffimageloading.svg.forms.2.4.11.982.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/xamarin.ffimageloading.transformations/2.4.11.982/xamarin.ffimageloading.transformations.2.4.11.982.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/xamarin.forms.maskedentry/1.0.0/xamarin.forms.maskedentry.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

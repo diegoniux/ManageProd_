@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{DBBCE1A4-8155-4BBC-A6C6-1E318FEE1C43}|Default">
+  <MonoDevelop.Ide.ItemProperties.ManageProd.Android PreferredExecutionTarget="Android.3300d1196731234f" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ManageProd/ManageProd/Views/LoginPage.xaml.cs">
+    <Files>
+      <File FileName="ManageProd/ManageProd/Views/FlyoutMenuPage.xaml" Line="36" Column="19" />
+      <File FileName="ManageProd/ManageProd/Views/LoginPage.xaml" Line="122" Column="42" />
+      <File FileName="ManageProd/ManageProd/Views/LoginPage.xaml.cs" Line="32" Column="29" />
+      <File FileName="ManageProd/ManageProd/Models/UserModel.cs" Line="8" Column="1" />
+      <File FileName="ManageProd/ManageProd/App.xaml.cs" Line="17" Column="1" />
+      <File FileName="ManageProd/ManageProd/Views/FlyoutMenuPage.xaml.cs" Line="13" Column="54" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ManageProd" expanded="True">
+            <Node name="ManageProd" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="HomePage.xaml" expanded="True">
+                  <Node name="LoginPage.xaml.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="ManageProd.Android" expanded="True" />
+            <Node name="ManageProd.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

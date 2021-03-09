@@ -4,7 +4,13 @@
             xmlns:local="clr-namespace:ManageProd.Views"
             x:Class="ManageProd.MainPage">
     <FlyoutPage.Flyout>
-        <local:FlyoutMenuPage x:Name="flyoutPage"></local:FlyoutMenuPage>
-        <!--COMMENT-->
+        <local:FlyoutMenuPage x:Name="flyoutPage" />
     </FlyoutPage.Flyout>
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:HomePage />
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
 </FlyoutPage>

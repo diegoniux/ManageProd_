@@ -15,6 +15,7 @@ namespace ManageProd.Views
         public FlyoutMenuPage()
         {
             InitializeComponent();
+            this.BindingContext = App.User;
         }
     }
 }

@@ -101,8 +101,7 @@
                             <renderers:EntryIcon
                                 x:Name="UserName"
                                 Text="{Binding LoginDTO.Nomina, Mode=TwoWay}"
-                                Keyboard="Numeric"
-                                MaxLength="5"
+                                MaxLength="15"
                                 CornerRadius="35"
                                 Placeholder="Ingresa tu usuario"
                                 PlaceholderColor="#C4C4C4"

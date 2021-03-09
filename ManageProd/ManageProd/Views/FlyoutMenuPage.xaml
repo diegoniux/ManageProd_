@@ -3,32 +3,82 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ManageProd.Views.FlyoutMenuPage"
              xmlns:local="clr-namespace:ManageProd.Models"
-             Padding="0,40,0,0"
+             xmlns:views="clr-namespace:ManageProd.Views"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             xmlns:fFImageLoadingTrans="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             Padding="0,30,0,0"
              IconImageSource="hamburger.png"
-             Title="Comercializadora">
-    <StackLayout>
-            <ListView x:Name="listView" x:FieldModifier="public">
-                <ListView.ItemsSource>
-                    <x:Array Type="{x:Type local:FlyoutPageItem}">
-                        <!--<local:FlyoutPageItem Title="Contacts" IconSource="contacts.png" TargetType="{x:Type local:ContactsPage}" />
-                        <local:FlyoutPageItem Title="TodoList" IconSource="todo.png" TargetType="{x:Type local:TodoListPage}" />
-                        <local:FlyoutPageItem Title="Reminders" IconSource="reminders.png" TargetType="{x:Type local:ReminderPage}" />-->
-                    </x:Array>
-                </ListView.ItemsSource>
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <Grid Padding="5,10">
-                                <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="30"/>
-                                    <ColumnDefinition Width="*" />
-                                </Grid.ColumnDefinitions>
-                                <Image Source="{Binding IconSource}" />
-                                <Label Grid.Column="1" Text="{Binding Title}" />
-                            </Grid>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </StackLayout>
+             Title="Comercializadora"
+             BackgroundColor="#9AC5F9">
+    <RelativeLayout>
+    <StackLayout
+        RelativeLayout.WidthConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Width}"
+        RelativeLayout.HeightConstraint= "{ConstraintExpression Type=RelativeToParent, Property=Height}">
+
+        <Grid Margin="0" 
+            Padding="0" 
+            ColumnSpacing="0" 
+            RowSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"></RowDefinition>
+                <RowDefinition Height="25"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Image
+                Grid.Column="0"
+                Grid.Row="0"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                x:Name = "Foto_Gerente"
+                Source = "user_menu.png">
+            </Image>
+
+            <Label
+                Text="{Binding User}"
+                FontFamily="Helvetica"
+                FontAttributes="Bold"
+                FontSize="20"
+                TextColor="#FFFFFF"
+                HorizontalTextAlignment="Center"
+                Grid.Column="0"
+                Grid.Row="1">
+            </Label>
+
+        </Grid>
+
+        <BoxView
+            BackgroundColor="#B2B2B2"
+            HeightRequest="1"
+            Margin="0"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="Start">
+        </BoxView>
+
+        <ListView
+            x:Name="listView"
+            x:FieldModifier="public">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type local:FlyoutPageItem}">
+                    <local:FlyoutPageItem Title="Actualización de Productos" IconSource="settings.png" TargetType="{x:Type views:HomePage}" />
+                    <local:FlyoutPageItem Title="Compras" IconSource="truck.png" TargetType="{x:Type views:HomePage}" />
+                    <local:FlyoutPageItem Title="Ventas" IconSource="sale.png" TargetType="{x:Type views:HomePage}" />
+                </x:Array>
+            </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="5,10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{Binding IconSource}" />
+                            <Label Grid.Column="1" Text="{Binding Title}" TextColor="White" FontSize="15" />
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+    </RelativeLayout>
 </ContentPage>

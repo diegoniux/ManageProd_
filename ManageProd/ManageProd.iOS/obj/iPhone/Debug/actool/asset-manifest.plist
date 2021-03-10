@@ -32,19 +32,38 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./hamburguer.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./hamburguer.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./hamburguer.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./hamburguer.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./hamburguer.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./hamburguer.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./hamburguer.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./hamburguer.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/obj/iPhone/Debug/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
-			<string>The image set "hamburguer" has 8 unassigned children.</string>
+			<string>The image set "truck" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./user_menu.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/obj/iPhone/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "user_menu" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -64,6 +83,177 @@
 			<string>/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/obj/iPhone/Debug/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "hamburguer" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./settings.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/obj/iPhone/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "settings" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./cart.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/obj/iPhone/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "cart" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./sale.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/obj/iPhone/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "sale" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./cart.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./cart.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/obj/iPhone/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "cart" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./truck.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./truck.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/obj/iPhone/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "truck" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./hamburguer.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./hamburguer.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./hamburguer.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./hamburguer.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./hamburguer.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./hamburguer.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./hamburguer.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./hamburguer.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/obj/iPhone/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "hamburguer" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./user_menu.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./user_menu.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/obj/iPhone/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "user_menu" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./sale.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./sale.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/obj/iPhone/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "sale" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./settings.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./settings.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/obj/iPhone/Debug/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "settings" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>

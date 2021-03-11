@@ -7,4 +7,11 @@
         <local:FlyoutMenuPage x:Name="flyoutPage"></local:FlyoutMenuPage>
         <!--COMMENT-->
     </FlyoutPage.Flyout>
+    <FlyoutPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <local:HomePage />
+            </x:Arguments>
+        </NavigationPage>
+    </FlyoutPage.Detail>
 </FlyoutPage>

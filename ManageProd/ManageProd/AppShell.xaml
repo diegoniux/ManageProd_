@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+       x:Class="ManageProd.AppShell"
+       FlyoutBehavior="Disabled"
+       xmlns:views="clr-namespace:ManageProd.Views"
+       xmlns:controls="clr-namespace:ManageProd.Controls"
+       FlyoutBackgroundColor="#81DAF5"
+       FlyoutHeaderBehavior="CollapseOnScroll">
+
+    <Shell.FlyoutHeader>
+        <controls:FlyoutHeader></controls:FlyoutHeader>
+    </Shell.FlyoutHeader>
+
+    <Shell.FlyoutFooter>
+        <controls:FlyoutFooter></controls:FlyoutFooter>
+    </Shell.FlyoutFooter>
+
+    <FlyoutItem IsVisible="False">
+        <ShellContent Route="StartupPage" Shell.FlyoutBehavior="Disabled" ContentTemplate="{DataTemplate views:HomePage}" />
+    </FlyoutItem>
+
+
+
+    <FlyoutItem Route="main"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Route="gestion"
+                          Title="Gestión de Productos y precios"
+                          Icon="settings.png"
+                          ContentTemplate="{DataTemplate views:HomePage}"/>
+        <ShellContent Route="venta"
+                        Title="Salida de Producto"
+                        Icon="truck.png"
+                        ContentTemplate="{DataTemplate views:HomePage}" />
+        <ShellContent Route="compra"
+                        Title="Entrada de Producto"
+                        Icon="cart.png"
+                        ContentTemplate="{DataTemplate views:HomePage}" />
+    </FlyoutItem>
+
+    <TabBar>
+        <ShellContent
+            Route="LoginPage"
+            Shell.FlyoutBehavior="Disabled" 
+            ContentTemplate="{DataTemplate views:LoginPage}"/>
+    </TabBar>
+
+    <!--<ShellContent Route="about"
+                  Title="About"
+                  Icon="user.png"
+                  ContentTemplate="{DataTemplate views:HomePage}" />
+
+    <MenuItem Text="Help"
+              IconImageSource="help.png"
+              Command="{Binding HelpCommand}"
+              CommandParameter="https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell" />-->
+
+
+</Shell>

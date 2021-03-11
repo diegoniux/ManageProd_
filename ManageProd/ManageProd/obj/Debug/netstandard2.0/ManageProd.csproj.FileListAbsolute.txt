@@ -14,3 +14,7 @@ D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\ref
 D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\ManageProd.pdb
 D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
 D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\Views\FlyoutMenuPage.xaml.g.cs
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\Controls\FlyoutFooter.xaml.g.cs
+D:\DIEGO\PROYECTOS\ManageProd\ManageProd\ManageProd\obj\Debug\netstandard2.0\Controls\FlyoutHeader.xaml.g.cs

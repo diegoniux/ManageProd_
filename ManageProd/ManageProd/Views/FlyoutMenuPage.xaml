@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ManageProd.Views.FlyoutMenuPage"
              xmlns:local="clr-namespace:ManageProd.Models"
+             xmlns:views="clr-namespace:ManageProd.Views"
              Padding="0,40,0,0"
              IconImageSource="hamburger.png"
              Title="Comercializadora">
@@ -10,9 +11,9 @@
             <ListView x:Name="listView" x:FieldModifier="public">
                 <ListView.ItemsSource>
                     <x:Array Type="{x:Type local:FlyoutPageItem}">
-                        <!--<local:FlyoutPageItem Title="Contacts" IconSource="contacts.png" TargetType="{x:Type local:ContactsPage}" />
-                        <local:FlyoutPageItem Title="TodoList" IconSource="todo.png" TargetType="{x:Type local:TodoListPage}" />
-                        <local:FlyoutPageItem Title="Reminders" IconSource="reminders.png" TargetType="{x:Type local:ReminderPage}" />-->
+                        <local:FlyoutPageItem Title="Gestión de Precios" IconSource="key.png" TargetType="{x:Type views:HomePage}" />
+                        <local:FlyoutPageItem Title="Recepción de Producto" IconSource="key.png" TargetType="{x:Type views:HomePage}" />
+                        <local:FlyoutPageItem Title="Salida de Producto" IconSource="key.png" TargetType="{x:Type views:HomePage}" />
                     </x:Array>
                 </ListView.ItemsSource>
                 <ListView.ItemTemplate>

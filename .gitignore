@@ -1,0 +1,9 @@
+
+.vs
+ManageProd\ManageProd\bin
+ManageProd\ManageProd\obj
+ManageProd\ManageProd.Android\bin
+ManageProd\ManageProd.Android\obj
+ManageProd\ManageProd.iOS\bin
+ManageProd\ManageProd.iOS\obj
+

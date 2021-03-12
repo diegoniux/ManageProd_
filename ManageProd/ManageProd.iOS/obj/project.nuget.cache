@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Vk46suSDH3DyISjy0qVGKImYPLGc9SB6539NyeLu/KQJO4ka3e2AbWABJ/PmjO7wKK4DBSOc52WKnEyAG465hA==",
+  "dgSpecHash": "F+dcoHRfxMJCw1FdlmKfhTjj+PknxAnau3sUNq9DrJiSMoC3w91WDj8hOJVCsE+ksgHklgFWUSetS7NSt4uTBQ==",
   "success": true,
-  "projectFilePath": "D:\\DIEGO\\PROYECTOS\\ManageProd\\ManageProd\\ManageProd.iOS\\ManageProd.iOS.csproj",
+  "projectFilePath": "/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/ManageProd.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\diego\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "/Users/dnieto/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
 }

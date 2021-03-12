@@ -2142,39 +2142,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\diego\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/dnieto/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DIEGO\\PROYECTOS\\ManageProd\\ManageProd\\ManageProd.Android\\ManageProd.Android.csproj",
+      "projectUniqueName": "/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.Android/ManageProd.Android.csproj",
       "projectName": "ManageProd.Android",
-      "projectPath": "D:\\DIEGO\\PROYECTOS\\ManageProd\\ManageProd\\ManageProd.Android\\ManageProd.Android.csproj",
-      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "D:\\DIEGO\\PROYECTOS\\ManageProd\\ManageProd\\ManageProd.Android\\obj\\",
+      "projectPath": "/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.Android/ManageProd.Android.csproj",
+      "packagesPath": "/Users/dnieto/.nuget/packages/",
+      "outputPath": "/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/dnieto/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid11.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "D:\\DIEGO\\PROYECTOS\\ManageProd\\ManageProd\\ManageProd\\ManageProd.csproj": {
-              "projectPath": "D:\\DIEGO\\PROYECTOS\\ManageProd\\ManageProd\\ManageProd\\ManageProd.csproj"
+            "/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd/ManageProd.csproj": {
+              "projectPath": "/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd/ManageProd.csproj"
             }
           }
         }

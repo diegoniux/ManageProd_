@@ -1,4 +1,5 @@
 ﻿using ManageProd.ViewModels;
+using Splat;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,40 +14,18 @@ namespace ManageProd.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class LoginPage : ContentPage
     {
-        public LoginPageViewModel LoginViewModel { get; set; }
+        internal LoginPageViewModel ViewModel { get; set; } = Locator.Current.GetService<LoginPageViewModel>();
+
         public LoginPage()
         {
             InitializeComponent();
 
-            LoginViewModel = new LoginPageViewModel()
-            {
-                User = new Models.UserModel(),
-                RememberUser = true
-            };
-
-            this.BindingContext = LoginViewModel;
+            BindingContext = ViewModel;
         }
 
-        async void btnIniciarSesion_Clicked(object sender, EventArgs e)
+        protected override bool OnBackButtonPressed()
         {
-            try
-            {
-                if (LoginViewModel.User.User == LoginViewModel.User.User && LoginViewModel.User.User != string.Empty)
-                {
-                    App.IsUserLoggedIn = true;
-                    await Shell.Current.GoToAsync("//main");
-                    
-                }
-                else
-                {
-                    throw new Exception("Usuario y/o contraseña incorrecta.");
-                }
-            }
-            catch (Exception ex)
-            {
-                await DisplayAlert("Aviso", ex.Message, "Ok");
-            }
-            
+            return true;
         }
     }
 }

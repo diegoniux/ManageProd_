@@ -4,7 +4,11 @@
              xmlns:renderers="clr-namespace:ManageProd.Renderers"
              x:Class="ManageProd.Views.LoginPage"
              Title="Login"
-             Shell.NavBarIsVisible="False">
+             Shell.NavBarIsVisible="False"
+             Shell.FlyoutBehavior="Disabled"
+             Shell.TabBarIsVisible="False"
+             Shell.PresentationMode="NotAnimated"
+             Visual="Material">
     <ContentPage.Content>
         <RelativeLayout Padding="0">
             <Image
@@ -101,10 +105,9 @@
                                    BackgroundColor="#FFFFFF">
                             </Image>
                             <renderers:EntryIcon
-                                x:Name="UserName"
-                                Text="{Binding LoginDTO.Nomina, Mode=TwoWay}"
-                                Keyboard="Numeric"
-                                MaxLength="5"
+                                Text="{Binding User.User}"
+                                Keyboard="Text"
+                                MaxLength="20"
                                 CornerRadius="35"
                                 Placeholder="Ingresa tu usuario"
                                 PlaceholderColor="#C4C4C4"
@@ -131,7 +134,7 @@
                                    Margin="20,0,20,0">
                             </Image>
                             <renderers:EntryIcon
-                                x:Name="PassworUser"
+                                Text="{Binding User.Password}"
                                 CornerRadius="35"
                                 MaxLength="20"
                                 Placeholder="Ingresa tu contraseña"
@@ -163,8 +166,7 @@
                     </Label>
 
                     <CheckBox 
-                        x:Name="chkRemember"
-                        IsChecked="{Binding LoginDTO.RememberUser, Mode=TwoWay}"
+                        IsChecked="{Binding RememberUser}"
                         Grid.Column="4"
                         Grid.Row="8"
                         HorizontalOptions="StartAndExpand"
@@ -182,8 +184,8 @@
                         CornerRadius="30"
                         HasShadow="False">
 
-                        <Button x:Name="btnIniciarSesion"
-                            Clicked="btnIniciarSesion_Clicked"
+                        <Button
+                            Command="{Binding ExecuteLogin}"
                             Text="Iniciar Sesión"
                             BackgroundColor="#2877D5"
                             TextColor="#FFFFFF"

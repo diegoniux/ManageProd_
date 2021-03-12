@@ -1,10 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "F+dcoHRfxMJCw1FdlmKfhTjj+PknxAnau3sUNq9DrJiSMoC3w91WDj8hOJVCsE+ksgHklgFWUSetS7NSt4uTBQ==",
+  "dgSpecHash": "NVj/OKHuot81AE0FGQFjmDby/rl/XU2K8CiJfJ51HEiGHd75kPFRR/q0WEqbcD/kFkJmEDEiHKBi4Y0WXTiltg==",
   "success": true,
   "projectFilePath": "/Users/dnieto/Documents/PROYECTOS/ManageProd/ManageProd/ManageProd.iOS/ManageProd.iOS.csproj",
   "expectedPackageFiles": [
+    "/Users/dnieto/.nuget/packages/acr.userdialogs/7.1.0.481/acr.userdialogs.7.1.0.481.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/btprogresshud/1.3.1/btprogresshud.1.3.1.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/dynamicdata/7.1.1/dynamicdata.7.1.1.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/reactiveui/13.2.2/reactiveui.13.2.2.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/reactiveui.xamforms/13.2.2/reactiveui.xamforms.13.2.2.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/splat/10.0.1/splat.10.0.1.nupkg.sha512",
     "/Users/dnieto/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/system.reactive/5.0.0/system.reactive.5.0.0.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/system.runtime.interopservices.windowsruntime/4.3.0/system.runtime.interopservices.windowsruntime.4.3.0.nupkg.sha512",
+    "/Users/dnieto/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/Users/dnieto/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
     "/Users/dnieto/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],

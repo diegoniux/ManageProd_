@@ -38,11 +38,23 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.1.0.481, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "ReactiveUI.XamForms": {
+              "target": "Package",
+              "version": "[13.2.2, )"
+            },
+            "Splat": {
+              "target": "Package",
+              "version": "[10.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

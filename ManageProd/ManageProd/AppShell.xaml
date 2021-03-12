@@ -2,13 +2,12 @@
 <Shell xmlns="http://xamarin.com/schemas/2014/forms"
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
        x:Class="ManageProd.AppShell"
-       FlyoutBehavior="Disabled"
        xmlns:views="clr-namespace:ManageProd.Views"
        xmlns:controls="clr-namespace:ManageProd.Controls"
        FlyoutBackgroundColor="#81DAF5"
        FlyoutHeaderBehavior="CollapseOnScroll">
 
-    <Shell.FlyoutHeader>
+    <!--<Shell.FlyoutHeader>
         <controls:FlyoutHeader></controls:FlyoutHeader>
     </Shell.FlyoutHeader>
 
@@ -18,12 +17,20 @@
 
     <FlyoutItem IsVisible="False">
         <ShellContent Route="StartupPage" Shell.FlyoutBehavior="Disabled" ContentTemplate="{DataTemplate views:HomePage}" />
-    </FlyoutItem>
+    </FlyoutItem>-->
 
 
+    <!-- Login and Registration Page -->
+    <ShellContent Route="login"
+                  ContentTemplate="{DataTemplate views:LoginPage}">
+    </ShellContent>
 
     <FlyoutItem Route="main"
                 FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Route="home"
+                          Title="Home"
+                          IsTabStop="False"
+                          ContentTemplate="{DataTemplate views:HomePage}"/>
         <ShellContent Route="gestion"
                           Title="Gestión de Productos y precios"
                           Icon="settings.png"
@@ -38,12 +45,15 @@
                         ContentTemplate="{DataTemplate views:HomePage}" />
     </FlyoutItem>
 
-    <TabBar>
+    <MenuItem Text="Logout"
+              Command="{Binding ExecuteLogout}" />
+
+    <!--<TabBar>
         <ShellContent
             Route="LoginPage"
             Shell.FlyoutBehavior="Disabled" 
             ContentTemplate="{DataTemplate views:LoginPage}"/>
-    </TabBar>
+    </TabBar>-->
 
     <!--<ShellContent Route="about"
                   Title="About"

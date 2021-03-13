@@ -43,8 +43,9 @@ namespace ManageProd.ViewModels
                 }
 
 
+
                 // This is where you would probably check the login and only if valid do the navigation...
-                await _navigationService.NavigateTo("///main/home");
+                await _navigationService.NavigateTo("//main");
             }
             catch (Exception ex)
             {

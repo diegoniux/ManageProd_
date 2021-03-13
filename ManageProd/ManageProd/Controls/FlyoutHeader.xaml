@@ -2,14 +2,17 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ManageProd.Controls.FlyoutHeader">
-    <Grid BackgroundColor="#81DAF5">
-        <Image Aspect="AspectFill" 
-                   Source="user_menu.png" 
-                   Opacity="0.6" />
+    <StackLayout>
+        <Image
+            Aspect="AspectFit" 
+            Source="user_menu.png" 
+            Margin="10,20,10,0"
+            />
         <Label Text="Diegoniux" 
-                   TextColor="White" 
-                   FontAttributes="Bold" 
-                   HorizontalTextAlignment="Center"
-                   VerticalTextAlignment="Center" />
-    </Grid>
+               TextColor="White" 
+               FontAttributes="Bold" 
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               FontSize="20"/>
+    </StackLayout>
 </ContentView>

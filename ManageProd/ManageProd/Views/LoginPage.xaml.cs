@@ -23,6 +23,15 @@ namespace ManageProd.Views
             BindingContext = ViewModel;
         }
 
+        protected override void OnAppearing()
+        {
+            var viewModel = (LoginPageViewModel)BindingContext;
+            viewModel.ExecuteLoadRememberUser.Execute(null);
+            BindingContext = viewModel;
+
+            base.OnAppearing();
+        }
+
         protected override bool OnBackButtonPressed()
         {
             return true;

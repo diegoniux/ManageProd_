@@ -4,9 +4,44 @@
        x:Class="ManageProd.AppShell"
        xmlns:views="clr-namespace:ManageProd.Views"
        xmlns:controls="clr-namespace:ManageProd.Controls"
+       BackgroundColor="#0080FF"
+       ForegroundColor="White"
+       TitleColor="White"
+       DisabledColor="#B4FFFFFF"
+       UnselectedColor="#95FFFFFF"
        FlyoutBackgroundImage="background_login.png"
        FlyoutBackgroundImageAspect="AspectFill"
        FlyoutHeaderBehavior="CollapseOnScroll">
+
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid VerticalOptions="EndAndExpand" ColumnDefinitions="0.2*,0.8*">
+                <Image Source="{Binding FlyoutIcon}"
+                       Margin="5"
+                       HeightRequest="45" />
+                <Label Grid.Column="1"
+                       Text="{Binding Title}"
+                       FontAttributes="Bold"
+                       VerticalTextAlignment="Center"
+                       TextColor="White"/>
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    <Shell.MenuItemTemplate>
+        <DataTemplate>
+            <Grid ColumnDefinitions="0.2*,0.8*">
+                <Image Source="{Binding Icon}"
+                       Margin="5"
+                       HeightRequest="45" />
+                <Label Grid.Column="1"
+                       Text="{Binding Text}"
+                       FontAttributes="Bold"
+                       VerticalTextAlignment="Center"
+                       TextColor="White"/>
+            </Grid>
+        </DataTemplate>
+    </Shell.MenuItemTemplate>
 
     <Shell.FlyoutHeader>
         <controls:FlyoutHeader></controls:FlyoutHeader>
@@ -25,10 +60,6 @@
 
     <FlyoutItem Route="main"
                 FlyoutDisplayOptions="AsMultipleItems">
-        <!--<ShellContent Route="home"
-                          Title="Home"
-                          IsTabStop="False"
-                          ContentTemplate="{DataTemplate views:HomePage}"/>-->
         <ShellContent Route="gestion"
                       Title="Gestión de Productos y precios"
                       Icon="settings.png"
@@ -44,7 +75,8 @@
     </FlyoutItem>
 
     <MenuItem Text="Cerrar Sesión"
-              Command="{Binding ExecuteLogout}" />
+              Command="{Binding ExecuteLogout}"
+              IconImageSource="exit.png"/>
 
 
 

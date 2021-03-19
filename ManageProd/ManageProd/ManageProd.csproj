@@ -16,6 +16,8 @@
     <PackageReference Include="ReactiveUI.XamForms" Version="13.2.2" />
     <PackageReference Include="Splat" Version="10.0.1" />
     <PackageReference Include="Acr.UserDialogs" Version="7.1.0.481" />
+    <PackageReference Include="UXDivers.GorillaPlayer.SDK" Version="1.5.5" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
   </ItemGroup>
 
   <ItemGroup>
@@ -41,5 +43,8 @@
   <ItemGroup>
     <Folder Include="Services\" />
     <Folder Include="Services\Routing\" />
+    <Folder Include="SQLiteDB\" />
+    <Folder Include="SQLiteDB\Models\" />
+    <Folder Include="SQLiteDB\Data\" />
   </ItemGroup>
 </Project>

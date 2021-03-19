@@ -222,6 +222,10 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\exit.imageset\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\exit.imageset\exit.png" />
+    <ImageAsset Include="Assets.xcassets\exit.imageset\exit-1.png" />
+    <ImageAsset Include="Assets.xcassets\exit.imageset\exit-2.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -243,6 +247,12 @@
     <PackageReference Include="Acr.UserDialogs">
       <Version>7.1.0.481</Version>
     </PackageReference>
+    <PackageReference Include="UXDivers.GorillaPlayer.SDK">
+      <Version>1.5.5</Version>
+    </PackageReference>
+    <PackageReference Include="sqlite-net-pcl">
+      <Version>1.7.335</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -250,5 +260,8 @@
       <Project>{DF7835A3-659B-43A8-9B73-DB586B107AB7}</Project>
       <Name>ManageProd</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets.xcassets\exit.imageset\" />
   </ItemGroup>
 </Project>

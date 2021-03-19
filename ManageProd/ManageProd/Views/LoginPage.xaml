@@ -105,7 +105,7 @@
                                    BackgroundColor="#FFFFFF">
                             </Image>
                             <renderers:EntryIcon
-                                Text="{Binding User.User}"
+                                Text="{Binding User.User, Mode = TwoWay}"
                                 Keyboard="Text"
                                 MaxLength="20"
                                 CornerRadius="35"
@@ -166,7 +166,7 @@
                     </Label>
 
                     <CheckBox 
-                        IsChecked="{Binding RememberUser}"
+                        IsChecked="{Binding User.Remember, Mode = TwoWay}"
                         Grid.Column="4"
                         Grid.Row="8"
                         HorizontalOptions="StartAndExpand"
